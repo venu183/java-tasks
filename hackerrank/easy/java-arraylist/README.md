@@ -40,64 +40,38 @@ In each line, output the number  located in $y^{th}$ position of $x^{th}$ line. 
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T04:37:21.101Z  
+**Submitted:** 2026-08-25T04:37:30.190Z  
 
-```java
-import java.util.*;
+```cpp
+            arr.add(list);
+        }
 
-public class Solution {
+        // Number of queries
+        int q = sc.nextInt();
 
-    public static void main(String[] args) {
+        // Process queries
+        for (int i = 0; i < q; i++) {
 
-        Scanner sc = new Scanner(System.in);
+            int x = sc.nextInt();
+            int y = sc.nextInt();
 
-        // Number of lines
-        int n = sc.nextInt();
+            // x and y are 1-based
+            if (x >= 1 && x <= arr.size()
+                    && y >= 1 && y <= arr.get(x - 1).size()) {
 
-        // ArrayList containing ArrayLists
-        ArrayList<ArrayList<Integer>> arr = new ArrayList<>();
+                System.out.println(arr.get(x - 1).get(y - 1));
 
-        // Read all lines
-        for (int i = 0; i < n; i++) {
+            } else {
+                System.out.println("ERROR!");
+            }
+        }
 
-            int d = sc.nextInt();
-
-            ArrayList<Integer> list = new ArrayList<>();
-
-            for (int j = 0; j < d; j++) {
-                list.add(sc.nextInt());
-            }
-
-            arr.add(list);
-        }
-
-        // Number of queries
-        int q = sc.nextInt();
-
-        // Process queries
-        for (int i = 0; i < q; i++) {
-
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-
-            // x and y are 1-based
-            if (x >= 1 && x <= arr.size()
-                    && y >= 1 && y <= arr.get(x - 1).size()) {
-
-                System.out.println(arr.get(x - 1).get(y - 1));
-
-            } else {
-                System.out.println("ERROR!");
-            }
-        }
-
-        sc.close();
-    }
+        sc.close();
+    }
 }
-
 ```
 
 ---
