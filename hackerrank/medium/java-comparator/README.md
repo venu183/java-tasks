@@ -29,12 +29,12 @@ You are not responsible for printing any output to stdout. The locked stub code 
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T04:41:47.525Z  
+**Submitted:** 2026-08-25T04:42:28.493Z  
 
-```java
+```cpp
 public class Solution {
 
     public static void main(String[] args) {
