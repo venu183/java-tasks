@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/throne-inheritance">1722. Throne Inheritance</a></h2><h3>Medium</h3><hr><p>A kingdom consists of a king, his children, his grandchildren, and so on. Every once in a while, someone in the family dies or a child is born.</p>
+<h2><a href="https://leetcode.com/problems/throne-inheritance">1600. Throne Inheritance</a></h2><h3>Medium</h3><hr><p>A kingdom consists of a king, his children, his grandchildren, and so on. Every once in a while, someone in the family dies or a child is born.</p>
 
 <p>The kingdom has a well-defined order of inheritance that consists of the king as the first member. Let&#39;s define the recursive function <code>Successor(x, curOrder)</code>, which given a person <code>x</code> and the inheritance order so far, returns who should be the next person after <code>x</code> in the order of inheritance.</p>
 
