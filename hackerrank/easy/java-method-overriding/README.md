@@ -54,53 +54,38 @@ When executed, your completed code should print the following:
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T06:40:00.064Z  
+**Submitted:** 2026-09-03T06:40:45.292Z  
 
-```java
-import java.util.*;
+```cpp
 
-class Sports {
+    @Override
+    String getName() {
+        return "Soccer Class";
+    }
 
-    String getName() {
-        return "Generic Sports";
-    }
-
-    void getNumberOfTeamMembers() {
-        System.out.println("Each team has n players in " + getName());
-    }
+    @Override
+    void getNumberOfTeamMembers() {
+        System.out.println("Each team has 11 players in " + getName());
+    }
 }
 
-class Soccer extends Sports {
+public class Solution {
 
-    @Override
-    String getName() {
-        return "Soccer Class";
-    }
+    public static void main(String[] args) {
 
-    @Override
-    void getNumberOfTeamMembers() {
-        System.out.println("Each team has 11 players in " + getName());
-    }
+        Sports c1 = new Sports();
+        Soccer c2 = new Soccer();
+
+        System.out.println(c1.getName());
+        c1.getNumberOfTeamMembers();
+
+        System.out.println(c2.getName());
+        c2.getNumberOfTeamMembers();
+    }
 }
-
-public class Solution {
-
-    public static void main(String[] args) {
-
-        Sports c1 = new Sports();
-        Soccer c2 = new Soccer();
-
-        System.out.println(c1.getName());
-        c1.getNumberOfTeamMembers();
-
-        System.out.println(c2.getName());
-        c2.getNumberOfTeamMembers();
-    }
-}
-
 ```
 
 ---
