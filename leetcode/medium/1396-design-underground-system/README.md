@@ -80,9 +80,9 @@ undergroundSystem.getAverageTime("Leyton", "Paradise"); // return 6.66667, (5 + 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 114 ms (beats 25.76%)  
-**Memory:** 57.7 MB (beats 50.86%)  
-**Submitted:** 2026-09-03T05:57:36.220Z  
+**Runtime:** 107 ms (beats 73.24%)  
+**Memory:** 57.6 MB (beats 61.65%)  
+**Submitted:** 2026-09-03T05:57:43.210Z  
 
 ```java
 import java.util.*;
