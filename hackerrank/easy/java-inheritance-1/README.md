@@ -63,38 +63,37 @@ The code above is provided for you in your editor. You must add a *sing* method 
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T06:14:54.861Z  
+**Submitted:** 2026-09-03T06:15:00.829Z  
 
-```java
-class Animal {
-    void walk() {
-        System.out.println("I am walking");
-    }
+```cpp
+class Animal {
+    void walk() {
+        System.out.println("I am walking");
+    }
 }
 
-class Bird extends Animal {
-    void fly() {
-        System.out.println("I am flying");
-    }
+class Bird extends Animal {
+    void fly() {
+        System.out.println("I am flying");
+    }
 
-    void sing() {
-        System.out.println("I am singing");
-    }
+    void sing() {
+        System.out.println("I am singing");
+    }
 }
 
-public class Solution {
-    public static void main(String[] args) {
-        Bird bird = new Bird();
+public class Solution {
+    public static void main(String[] args) {
+        Bird bird = new Bird();
 
-        bird.walk();
-        bird.fly();
-        bird.sing();
-    }
+        bird.walk();
+        bird.fly();
+        bird.sing();
+    }
 }
-
 ```
 
 ---
