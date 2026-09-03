@@ -26,37 +26,36 @@ Do not use method overloading because your answer will not be accepted.
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T06:23:43.043Z  
+**Submitted:** 2026-09-03T06:25:32.308Z  
 
-```java
-import java.io.*;
-import java.util.*;
+```cpp
+import java.io.*;
+import java.util.*;
 
-class Printer {
+class Printer {
 
-    public <T> void printArray(T[] array) {
-        for (T element : array) {
-            System.out.println(element);
-        }
-    }
+    public <T> void printArray(T[] array) {
+        for (T element : array) {
+            System.out.println(element);
+        }
+    }
 }
 
-public class Solution {
-    public static void main(String[] args) {
+public class Solution {
+    public static void main(String[] args) {
 
-        Printer myPrinter = new Printer();
+        Printer myPrinter = new Printer();
 
-        Integer[] intArray = {1, 2, 3};
-        String[] stringArray = {"Hello", "World"};
+        Integer[] intArray = {1, 2, 3};
+        String[] stringArray = {"Hello", "World"};
 
-        myPrinter.printArray(intArray);
-        myPrinter.printArray(stringArray);
-    }
+        myPrinter.printArray(intArray);
+        myPrinter.printArray(stringArray);
+    }
 }
-
 ```
 
 ---
