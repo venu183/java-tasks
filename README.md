@@ -48,3 +48,18 @@
 *Last updated: 2026-09-03* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [1396-design-underground-system](https://github.com/venu183/java-tasks/tree/master/1396-design-underground-system) |
+## String
+|  |
+| ------- |
+| [1396-design-underground-system](https://github.com/venu183/java-tasks/tree/master/1396-design-underground-system) |
+## Design
+|  |
+| ------- |
+| [1396-design-underground-system](https://github.com/venu183/java-tasks/tree/master/1396-design-underground-system) |
+<!---LeetCode Topics End-->
