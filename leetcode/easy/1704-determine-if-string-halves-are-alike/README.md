@@ -43,8 +43,8 @@ Notice that the vowel o is counted twice.
 
 **Language:** Java  
 **Runtime:** 4 ms (beats 57.56%)  
-**Memory:** 43 MB (beats 63.08%)  
-**Submitted:** 2026-09-03T05:34:04.369Z  
+**Memory:** 43.1 MB (beats 47.20%)  
+**Submitted:** 2026-09-03T05:39:20.908Z  
 
 ```java
 class Solution {
