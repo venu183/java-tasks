@@ -48,3 +48,22 @@
 *Last updated: 2026-09-03* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/venu183/java-tasks/tree/master/1600-throne-inheritance) |
+## Tree
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/venu183/java-tasks/tree/master/1600-throne-inheritance) |
+## Depth-First Search
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/venu183/java-tasks/tree/master/1600-throne-inheritance) |
+## Design
+|  |
+| ------- |
+| [1600-throne-inheritance](https://github.com/venu183/java-tasks/tree/master/1600-throne-inheritance) |
+<!---LeetCode Topics End-->
