@@ -1,0 +1,79 @@
+import java.io.*;
+import java.util.*;
+
+class Result {
+
+    public static void matrixRotation(List<List<Integer>> matrix, int r) {
+
+        int rows = matrix.size();
+        int cols = matrix.get(0).size();
+
+        int layers = Math.min(rows, cols) / 2;
+
+        for (int layer = 0; layer < layers; layer++) {
+
+            List<Integer> values = new ArrayList<>();
+
+            // Left column: top -> bottom
+            for (int i = layer; i < rows - layer; i++) {
+                values.add(matrix.get(i).get(layer));
+            }
+
+            // Bottom row: left -> right
+            for (int j = layer + 1; j < cols - layer; j++) {
+                values.add(matrix.get(rows - layer - 1).get(j));
+            }
+
+            // Right column: bottom -> top
+            for (int i = rows - layer - 2; i >= layer; i--) {
+                values.add(matrix.get(i).get(cols - layer - 1));
+            }
+
+            // Top row: right -> left
+            for (int j = cols - layer - 2; j > layer; j--) {
+                values.add(matrix.get(layer).get(j));
+            }
+
+            int size = values.size();
+            int shift = r % size;
+
+            int index = 0;
+
+            // Put rotated values back into the layer
+            for (int i = layer; i < rows - layer; i++) {
+                matrix.get(i).set(layer, values.get((shift + index) % size));
+                index++;
+            }
+
+            for (int j = layer + 1; j < cols - layer; j++) {
+                matrix.get(rows - layer - 1)
+                      .set(j, values.get((shift + index) % size));
+                index++;
+            }
+
+            for (int i = rows - layer - 2; i >= layer; i--) {
+                matrix.get(i)
+                      .set(cols - layer - 1,
+                           values.get((shift + index) % size));
+                index++;
+            }
+
+            for (int j = cols - layer - 2; j > layer; j--) {
+                matrix.get(layer)
+                      .set(j, values.get((shift + index) % size));
+                index++;
+            }
+        }
+
+        for (List<Integer> row : matrix) {
+            for (int i = 0; i < row.size(); i++) {
+                System.out.print(row.get(i));
+
+                if (i < row.size() - 1) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
