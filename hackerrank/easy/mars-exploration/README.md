@@ -43,12 +43,12 @@ There is one line of input: a single string, $s$.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T06:18:07.518Z  
+**Submitted:** 2026-09-10T06:18:19.296Z  
 
-```cpp
+```java
         for (int i = 0; i < s.length(); i++) {
             char expected;
 
