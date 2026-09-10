@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-57-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-58-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-9--10--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **33** |
+| 🟢 Easy | **34** |
 | 🟡 Medium | **21** |
 | 🔴 Hard | **3** |
-| **Total** | **57** |
+| **Total** | **58** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **46** |
+| Java | **47** |
 | C++ | **11** |
 
 ## 📂 Repository Structure
@@ -48,30 +48,3 @@
 *Last updated: 2026-09-10* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## String
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## String Matching
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## Z Algorithm
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## Knuth–Morris–Pratt Algorithm
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## Boyer–Moore String-Search Algorithm
-|  |
-| ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/venu183/java-tasks/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-<!---LeetCode Topics End-->
