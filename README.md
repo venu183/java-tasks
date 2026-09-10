@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-55-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-57-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-9--10--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **33** |
-| 🟡 Medium | **19** |
+| 🟡 Medium | **21** |
 | 🔴 Hard | **3** |
-| **Total** | **55** |
+| **Total** | **57** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **44** |
+| Java | **46** |
 | C++ | **11** |
 
 ## 📂 Repository Structure
@@ -48,18 +48,3 @@
 *Last updated: 2026-09-10* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0438-find-all-anagrams-in-a-string](https://github.com/venu183/java-tasks/tree/master/0438-find-all-anagrams-in-a-string) |
-## String
-|  |
-| ------- |
-| [0438-find-all-anagrams-in-a-string](https://github.com/venu183/java-tasks/tree/master/0438-find-all-anagrams-in-a-string) |
-## Sliding Window
-|  |
-| ------- |
-| [0438-find-all-anagrams-in-a-string](https://github.com/venu183/java-tasks/tree/master/0438-find-all-anagrams-in-a-string) |
-<!---LeetCode Topics End-->
