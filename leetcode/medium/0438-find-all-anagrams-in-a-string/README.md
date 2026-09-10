@@ -41,9 +41,9 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 ## Solution
 
 **Language:** Java  
-**Runtime:** 10 ms (beats 80.93%)  
-**Memory:** 46.7 MB (beats 82.55%)  
-**Submitted:** 2026-09-10T06:21:43.401Z  
+**Runtime:** 11 ms (beats 66.43%)  
+**Memory:** 46.8 MB (beats 57.60%)  
+**Submitted:** 2026-09-10T06:21:35.043Z  
 
 ```java
 import java.util.*;
