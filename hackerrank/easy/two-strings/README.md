@@ -51,50 +51,38 @@ For each pair of strings, return `YES` or `NO`.
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T06:12:15.961Z  
+**Submitted:** 2026-09-10T06:12:22.239Z  
 
-```java
-import java.io.*;
-import java.util.*;
+```cpp
+        }
 
-public class Solution {
+        // Check characters of s2
+        for (char c : s2.toCharArray()) {
+            if (present[c - 'a']) {
+                return "YES";
+            }
+        }
 
-    static String twoStrings(String s1, String s2) {
-        boolean[] present = new boolean[26];
+        return "NO";
+    }
 
-        // Store characters of s1
-        for (char c : s1.toCharArray()) {
-            present[c - 'a'] = true;
-        }
+    public static void main(String[] args) throws Exception {
+        BufferedReader br =
+            new BufferedReader(new InputStreamReader(System.in));
 
-        // Check characters of s2
-        for (char c : s2.toCharArray()) {
-            if (present[c - 'a']) {
-                return "YES";
-            }
-        }
+        int q = Integer.parseInt(br.readLine().trim());
 
-        return "NO";
-    }
+        while (q-- > 0) {
+            String s1 = br.readLine().trim();
+            String s2 = br.readLine().trim();
 
-    public static void main(String[] args) throws Exception {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
-
-        int q = Integer.parseInt(br.readLine().trim());
-
-        while (q-- > 0) {
-            String s1 = br.readLine().trim();
-            String s2 = br.readLine().trim();
-
-            System.out.println(twoStrings(s1, s2));
-        }
-    }
+            System.out.println(twoStrings(s1, s2));
+        }
+    }
 }
-
 ```
 
 ---
